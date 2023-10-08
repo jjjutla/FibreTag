@@ -1,4 +1,4 @@
-# Fitag
+# FiTag
 Submission for EasyA x vechain hackathon
 
 ### MIT License
