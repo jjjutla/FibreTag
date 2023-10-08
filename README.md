@@ -57,6 +57,10 @@ We integrated blockchain onboarding with traditional economic systems by leverag
 
 ![fiat](https://github.com/nkoorty/FiTag/assets/22000925/2f8e1480-a6fc-4094-a3b7-8b21c300bf70)
 
+Supply Chain Server: [Link](https://supplychain-fitag.vercel.app/api/getHistory)
+
+The supply chain server is designed with a public REST API endpoint facilitated by Vercel. Interaction with the blockchain is managed through Web3.js, which interfaces with a custom Solidity smart contract tailored for recording manufacturing stages. Instead of conventional block numbers, the system employs JavaScript's date() function to store timestamps in a human-readable format. The entire contract development lifecycle, from compilation to deployment, is streamlined using Hardhat, ensuring a robust and optimized smart contract deployment for the supply chain.
+
 
 ### MIT License
 
