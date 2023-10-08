@@ -44,6 +44,10 @@ iences or the metaverse offering unique brand interactions in a growing marker.T
 - Users with the loyalty pass can earn VTHO to offset gas fees by making purchases and leaving reviews.
 
 ## Technical Features:
+### iOS App
+The mobile app is programmed using SwiftUI and Swift in order to make networking calls to the FiTag backend. Features include the Marketplace overview, augmented reality interaction, NFC reading, and SwiftData to store the private key of the user's wallet locally. The app uses ARKit and RealityKit to interact with the phygitals, and SwiftNFC in order to read and write NFC tags.
+
+Login is done using **Google Firebase** and uses Google Oauth and email/password as a login.  The app uses MVVM architecture and and works on iOS 17 and above.
 ### PoC Metamask Vechain: [Link](https://metamask-fitag.vercel.app/?testnets=true)
 
 
