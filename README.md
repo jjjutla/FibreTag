@@ -1,11 +1,11 @@
 # FiTag: Sustainable Luxury Fashion
 
 ## Table of Contents
-Images
-Problems Solved
-Incentives
-Business Model and Tokenomics
-Technical Features
+Images \
+Problems Solved \
+Incentives \
+Business Model and Tokenomics \
+Technical Features \
 
 
 FiTag is a Luxury Fashion tracking iOS app that promotes transparency in a brands supply chain through the vechain blockchain. From sourcing to sale, we utilize NFC tags to ensure full transparency and assist brands with compliance in the latest sustainability regulations set by the Fashion Industry Charter. Beyond serving as a marketplace, FiTag promotes a circular economy with its rental model, and our NFT's not only guarantee product authenticity but also provides digital ownership. Additionally, our loyalty tokens unlock exclusive AR try-ons and early product releases elevating the shopping experience while minimising on global shipping.
