@@ -52,6 +52,8 @@ PoC Metamask Vechain: [Link](https://metamask-fitag.vercel.app/?testnets=true)
 
 Fiat Payments using Chargebee: [Link](https://payments-fitag.vercel.app/)
 
+We integrated blockchain onboarding with traditional economic systems by leveraging social logins and fee delegation. Utilizing the OpenZeppelin Wizard, a mintable and burnable NFT contract is generated, representing user payments. The vechain.energy API serves as a bridge for web applications to interact with the blockchain. Upon a successful transaction via payment gateways via chargebee the backend mints an NFT to the user's wallet, which is subsequently burned at the subscription's end. Chargebee manages the financial aspects, providing webhook notifications to the backend about subscription statuses. All interactions, including minting and burning of NFTs, are handled through API calls, ensuring seamless integration. 
+
 
 ![fiat](https://github.com/nkoorty/FiTag/assets/22000925/2f8e1480-a6fc-4094-a3b7-8b21c300bf70)
 
