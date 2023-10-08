@@ -10,6 +10,8 @@ FiTag is a Luxury Fashion tracking iOS app that promotes transparency in a brand
 <img src=https://github.com/nkoorty/FiTag/assets/80065244/9e86d745-7a94-47de-b6b9-5da8558241d7 width=16% height=16% >
 <img src=https://github.com/nkoorty/FiTag/assets/80065244/5660ba72-bc82-4d7e-8c9f-26a8ffe6f54f width=16% height=16% >
 
+Find a video demo [here](https://youtube.com/shorts/-bcWPqIdZ9k)
+
 ## Solved Problems
 - [85% of fashion's carbon emissions](https://web-assets.bcg.com/1e/23/d9e9792a4988b61e708794baa174/bcg-sustainability-metaverse-in-fashion-opportunity-or-threat-oct-2022.pdf) come from distribution and suppliers; our blockchain record identifies major emitters. 
 - By 2023, the [Fashion Industry Charter](https://unfccc.int/climate-action/sectoral-engagement-for-climate-action/fashion-charter) mandates a 50% emission cut for all brands; we assess supply chain data to verify brand compliance. 
