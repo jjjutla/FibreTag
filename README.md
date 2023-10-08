@@ -28,8 +28,7 @@ FiTag is a Luxury Fashion tracking iOS app that promotes transparency in a brand
 ### For Brands, Manufacturers and Suppliers:
 - **Counterfeit Deterrences:** By issuing NFT's brands can significantly deter counterfeiting as replicating physical items wont come with the genuine NFT.
 - **Expanding Brand Reach:** By authenticating used or rented luxury items, brands can attract and assure a broader range of customers, including those with lower incomes, thereby widening their market presence.
-- **Enhanced Customer Engagements and Retention:** NFT’s can be integrated with AR exper
-iences or the metaverse offering unique brand interactions in a growing marker.The loyalty program, backed by token incentives, encourages repeat purchases and engagement. 
+- **Enhanced Customer Engagements and Retention:** NFT’s can be integrated with AR experiences or the metaverse offering unique brand interactions in a growing marker.The loyalty program, backed by token incentives, encourages repeat purchases and engagement. 
 - **Data Insights:** By tracking consumer behavior through token redemptions and NFT interactions, brands can gain valuable insights to tailor marketing strategies and product launches. Brands can monitor secondary markets such as the resale market, ginning insights into product life cycles, demand and consumer behaviour, prodiving more data.
 - **Regulation Compliance:** Allows brands to get compliant with regulations and streamline audits: Fashion Industry Charter for Climate Action (Will be enforced by the end of 2030 to cut emissions in the fashion industry by 50%)
 - **Enhanced Brand Image:** Adopting a transparent and sustainable model enhances the brand's image, appealing to the growing demographic of conscious consumers.
