@@ -44,20 +44,20 @@ iences or the metaverse offering unique brand interactions in a growing marker.T
 - Users with the loyalty pass can earn VTHO to offset gas fees by making purchases and leaving reviews.
 
 ## Technical Features:
-PoC Metamask Vechain: [Link](https://metamask-fitag.vercel.app/?testnets=true)
+### PoC Metamask Vechain: [Link](https://metamask-fitag.vercel.app/?testnets=true)
 
 
 ![MM](https://github.com/nkoorty/FiTag/assets/22000925/6a15b83c-3127-4e39-8b1f-64b3942ab703)
 
 
-Fiat Payments using Chargebee: [Link](https://payments-fitag.vercel.app/)
+### Fiat Payments using Chargebee: [Link](https://payments-fitag.vercel.app/)
 
 We integrated blockchain onboarding with traditional economic systems by leveraging social logins and fee delegation. Utilizing the OpenZeppelin Wizard, a mintable and burnable NFT contract is generated, representing user payments. The vechain.energy API serves as a bridge for web applications to interact with the blockchain. Upon a successful transaction via payment gateways via chargebee the backend mints an NFT to the user's wallet, which is subsequently burned at the subscription's end. Chargebee manages the financial aspects, providing webhook notifications to the backend about subscription statuses. All interactions, including minting and burning of NFTs, are handled through API calls, ensuring seamless integration. 
 
 
 ![fiat](https://github.com/nkoorty/FiTag/assets/22000925/2f8e1480-a6fc-4094-a3b7-8b21c300bf70)
 
-Supply Chain Server: [Link](https://supplychain-fitag.vercel.app/api/getHistory)
+### Supply Chain Server: [Link](https://supplychain-fitag.vercel.app/api/getHistory)
 
 The supply chain server is designed with a public REST API endpoint facilitated by Vercel. Interaction with the blockchain is managed through Web3.js, which interfaces with a custom Solidity smart contract tailored for recording manufacturing stages. Instead of conventional block numbers, the system employs JavaScript's date() function to store timestamps in a human-readable format. The entire contract development lifecycle, from compilation to deployment, is streamlined using Hardhat, ensuring a robust and optimized smart contract deployment for the supply chain.
 
