@@ -52,20 +52,20 @@ Find a video demo [here](https://youtube.com/shorts/-bcWPqIdZ9k)
 - Brands or users can stake a certain amount of VET tokens for VTHO, which can be used to cover the operational costs on the platform.
 - Users with the loyalty pass can earn VTHO to offset gas fees by making purchases and leaving reviews.
 
-#Loyalty Token Acquisition:
--Users earn a loyalty token after buying 5 items from a brand, promoting repeat business.
-#Token Benefits:
--Token holders get discounts and access to exclusive brand drops.
-#NFT Integration:
--Each product has an NFT twin, validating its authenticity.
--Loyalty tokens can enhance NFT utility (e.g., added discounts).
--NFTs might record purchases, automatically awarding loyalty tokens after 5 buys.
-#Token Scarcity:
--A fixed or dynamic token supply can be set. Token burns (removing tokens from circulation after use) can introduce scarcity.
-#Secondary Market:
--Loyalty tokens and NFTs can be tradable. Trading might incur fees benefiting token holders.
-#Security:
--Strong security measures and regular audits are essential to prevent fraud.
+### Loyalty Token Acquisition:
+- Users earn a loyalty token after buying 5 items from a brand, promoting repeat business.
+### Token Benefits:
+- Token holders get discounts and access to exclusive brand drops.
+### NFT Integration:
+- Each product has an NFT twin, validating its authenticity.
+- Loyalty tokens can enhance NFT utility (e.g., added discounts).
+- NFTs might record purchases, automatically awarding loyalty tokens after 5 buys.
+### Token Scarcity:
+- A fixed or dynamic token supply can be set. Token burns (removing tokens from circulation after use) can introduce scarcity.
+### Secondary Market:
+- Loyalty tokens and NFTs can be tradable. Trading might incur fees benefiting token holders.
+### Security:
+- Strong security measures and regular audits are essential to prevent fraud.
 
 ## Technical Features:
 ### iOS App
