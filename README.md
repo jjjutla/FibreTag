@@ -50,6 +50,12 @@ PoC Metamask Vechain: [Link](https://metamask-fitag.vercel.app/?testnets=true)
 ![MM](https://github.com/nkoorty/FiTag/assets/22000925/6a15b83c-3127-4e39-8b1f-64b3942ab703)
 
 
+Fiat Payments using Chargebee: [Link](https://payments-fitag.vercel.app/)
+
+
+![fiat](https://github.com/nkoorty/FiTag/assets/22000925/2f8e1480-a6fc-4094-a3b7-8b21c300bf70)
+
+
 ### MIT License
 
 Copyright (c) 2023 Artemiy Malyshau, Adesh Dooraree, Jeevan Jutla
