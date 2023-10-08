@@ -1,0 +1,33 @@
+{
+  "devDependencies": {
+    "@parcel/transformer-less": "2.8.3",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "buffer": "^5.5.0",
+    "crypto-browserify": "^3.12.0",
+    "events": "^3.1.0",
+    "https-browserify": "^1.0.0",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10",
+    "punycode": "^1.4.1",
+    "querystring-es3": "^0.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.1.0",
+    "url": "^0.11.0"
+  },
+  "dependencies": {
+    "@vechain.energy/use-vechain": "^0.12.2",
+    "antd": "^5.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.2"
+  },
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "start": "parcel serve src/index.html",
+    "contract:deploy": "cd contracts; yarn deploy:proxy",
+    "contract:upgrade": "cd contracts; yarn deploy:upgrade",
+    "contract:test": "cd contracts; yarn jest",
+    "contract:test:watch": "cd contracts; yarn test:watch"
+  }
+}
