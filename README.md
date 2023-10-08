@@ -1,7 +1,14 @@
 # FiTag: Sustainable Luxury Fashion
 
-
 FiTag is a Luxury Fashion tracking iOS app that promotes transparency in a brands supply chain through the vechain blockchain. From sourcing to sale, we utilize NFC tags to ensure full transparency and assist brands with compliance in the latest sustainability regulations get by the Fashion Industry Charter. Beyond serving as a marketplace, FiTag promotes a circular economy with its rental model, and our NFT's not only guarantee product authenticity but also provides digital ownership. Additionally, our loyalty tokens unlock exclusive AR try-ons and early product releases elevating the shopping experience while minimising on global shipping.
+
+## Images
+<img src=https://github.com/nkoorty/FiTag/assets/80065244/fc89838c-f3e1-4605-8860-8b19b313c4bd width=16% height=16% >
+<img src=https://github.com/nkoorty/FiTag/assets/80065244/b55fb765-0738-4327-8591-98a89ec9afae width=16% height=16% >
+<img src=https://github.com/nkoorty/FiTag/assets/80065244/03f9d28f-e029-4c6d-b0be-472dbbad06ce width=16% height=16% >
+<img src=https://github.com/nkoorty/FiTag/assets/80065244/310785a7-49dc-4251-a4bc-6392db1fb747 width=16% height=16% >
+<img src=https://github.com/nkoorty/FiTag/assets/80065244/9e86d745-7a94-47de-b6b9-5da8558241d7 width=16% height=16% >
+<img src=https://github.com/nkoorty/FiTag/assets/80065244/5660ba72-bc82-4d7e-8c9f-26a8ffe6f54f width=16% height=16% >
 
 ## Solved Problems
 - [85% of fashion's carbon emissions](https://web-assets.bcg.com/1e/23/d9e9792a4988b61e708794baa174/bcg-sustainability-metaverse-in-fashion-opportunity-or-threat-oct-2022.pdf) come from distribution and suppliers; our blockchain record identifies major emitters. 
