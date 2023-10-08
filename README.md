@@ -17,7 +17,7 @@ FiTag is a iOS Luxury Fashion Marketplace powered by Vechain. We guarantee compl
 - **Exclusive Access:** Loyalty passes can grant customers exclusive access to brand events, AR try ons or early releases enhancing their luxury shopping experience.
 
 ### For Brands, Manufacturers and Suppliers:
-- **Counterfeit Deterrences:** By issuing NFT;s brands can significantly deter counterfeiting as replicating physical items wont come with the genuine NFT.
+- **Counterfeit Deterrences:** By issuing NFT's brands can significantly deter counterfeiting as replicating physical items wont come with the genuine NFT.
 - **Expanding Brand Reach:** By authenticating used or rented luxury items, brands can attract and assure a broader range of customers, including those with lower incomes, thereby widening their market presence.
 - **Enhanced Customer Engagements and Retention:** NFT’s can be integrated with AR exper
 iences or the metaverse offering unique brand interactions in a growing marker.The loyalty program, backed by token incentives, encourages repeat purchases and engagement. 
