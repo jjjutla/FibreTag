@@ -35,7 +35,7 @@ iences or the metaverse offering unique brand interactions in a growing marker.T
 - Users with the loyalty pass can earn VTHO to offset gas fees by making purchases and leaving reviews.
 
 ## Technical Features:
-PoC Metamask Vechain 
+PoC Metamask Vechain: [Link](https://metamask-fitag.vercel.app/?testnets=true)
 
 
 ![MM](https://github.com/nkoorty/FiTag/assets/22000925/6a15b83c-3127-4e39-8b1f-64b3942ab703)
