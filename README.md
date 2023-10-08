@@ -3,9 +3,9 @@ FiTag is a iOS Luxury Fashion Marketplace powered by Vechain. We guarantee compl
 
 ### Solved Problems
 - [85% of fashion's carbon emissions](https://web-assets.bcg.com/1e/23/d9e9792a4988b61e708794baa174/bcg-sustainability-metaverse-in-fashion-opportunity-or-threat-oct-2022.pdf) come from distribution and suppliers; our blockchain record identifies major emitters. 
-- By 2023, the Fashion Industry Charter mandates a 50% emission cut for all brands; we assess supply chain data to verify brand compliance. 
-- The USA discards over 2,150 tons of clothing per second; our rental service promotes a circular fashion economy. 
-- 21% of digital users (10-25 years) buy fashion just for social media posts; our AR feature lets influencers virtually try on outfits, reducing global shipping.
+- By 2023, the [Fashion Industry Charter](https://unfccc.int/climate-action/sectoral-engagement-for-climate-action/fashion-charter) mandates a 50% emission cut for all brands; we assess supply chain data to verify brand compliance. 
+- [The USA discards over 2,150 tons of clothing per second](https://wiltonchamber.com/event-detail/sustainability-in-fashion-curating-an-ethically-conscious-closet/#:~:text=Did%20you%20know%20that%20Americans,pieces%20of%20clothing%20per%20second.); our rental service promotes a circular fashion economy. 
+- [21% of digital users (10-25 years) buy fashion just for social media posts](https://www.businessoffashion.com/reports/retail/gen-z-fashion-in-the-age-of-realism-bof-insights-social-media-report/); our AR feature lets influencers virtually try on outfits, reducing global shipping.
 - Easy on-boarding of users using a walletless Google authentication and fiat payments using Chargebee.
 
 
