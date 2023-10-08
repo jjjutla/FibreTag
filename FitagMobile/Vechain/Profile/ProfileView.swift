@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ProfileView: View {
+    
+    @State private var showSettings = false
+
     var body: some View {
         NavigationView {
             ZStack {
@@ -182,7 +185,15 @@ struct ProfileView: View {
             .navigationTitle("Profile")
             .toolbar {
                 ToolbarItemGroup(placement: .topBarTrailing) {
-                    Image(systemName: "gearshape")
+                    NavigationLink(destination: SettingsView(), isActive: $showSettings) {
+                        EmptyView()
+                    }
+
+                    Button(action: {
+                        showSettings.toggle()
+                    }) {
+                        Image(systemName: "gearshape")
+                    }
                 }
             }
         }

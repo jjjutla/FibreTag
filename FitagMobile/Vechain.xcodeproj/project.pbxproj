@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA47F1A72AD2FAF600EEFC99 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA47F1A62AD2FAF600EEFC99 /* SettingsView.swift */; };
 		DA5B3D5B2AD2457E00B1A1AC /* nft6.usdz in Resources */ = {isa = PBXBuildFile; fileRef = DA5B3D552AD2457E00B1A1AC /* nft6.usdz */; };
 		DA5B3D5C2AD2457E00B1A1AC /* nft3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = DA5B3D562AD2457E00B1A1AC /* nft3.usdz */; };
 		DA5B3D5D2AD2457E00B1A1AC /* nft2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = DA5B3D572AD2457E00B1A1AC /* nft2.usdz */; };
@@ -67,6 +68,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA47F1A62AD2FAF600EEFC99 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		DA5B3D552AD2457E00B1A1AC /* nft6.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = nft6.usdz; sourceTree = "<group>"; };
 		DA5B3D562AD2457E00B1A1AC /* nft3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = nft3.usdz; sourceTree = "<group>"; };
 		DA5B3D572AD2457E00B1A1AC /* nft2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = nft2.usdz; sourceTree = "<group>"; };
@@ -240,6 +242,7 @@
 				DAE9A4DD2AC568FC006A0AFF /* HomeView.swift */,
 				DAC39B172AD234130094E4F3 /* MarketplacePreviewView.swift */,
 				DA5B3D622AD25B6F00B1A1AC /* PreviewView.swift */,
+				DA47F1A62AD2FAF600EEFC99 /* SettingsView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -390,6 +393,7 @@
 				DAAFFDD12AC4A5B500854DD9 /* ContentView.swift in Sources */,
 				DAC39B1F2AD23F380094E4F3 /* ARExperienceView.swift in Sources */,
 				DA738AFA2AD2B57200F60741 /* +View.swift in Sources */,
+				DA47F1A72AD2FAF600EEFC99 /* SettingsView.swift in Sources */,
 				DAC39B262AD23FC90094E4F3 /* NFTModel.swift in Sources */,
 				DA5B3D652AD2650600B1A1AC /* NFCFoundView.swift in Sources */,
 				DAC39B1D2AD235C10094E4F3 /* Clothing.swift in Sources */,

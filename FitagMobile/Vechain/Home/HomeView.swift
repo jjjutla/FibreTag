@@ -7,6 +7,7 @@ struct HomeView: View {
     
     @State private var showARExperience = false
     @State private var selection: MarketOption = .buy
+    @State private var showSettings = false
     
     enum MarketOption: String, CaseIterable {
         case buy = "Buy"
@@ -49,9 +50,7 @@ struct HomeView: View {
             .navigationTitle("Marketplace")
             .toolbar {
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
-                    Button { } label: {
-                        Image(systemName: "magnifyingglass")
-                    }
+                    Image(systemName: "magnifyingglass")
                 }
             }
         }
