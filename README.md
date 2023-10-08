@@ -8,11 +8,6 @@ FiTag is a iOS Luxury Fashion Marketplace powered by Vechain. We guarantee compl
 - [21% of digital users (10-25 years) buy fashion just for social media posts](https://www.businessoffashion.com/reports/retail/gen-z-fashion-in-the-age-of-realism-bof-insights-social-media-report/); our AR feature lets influencers virtually try on outfits, reducing global shipping.
 - Easy on-boarding of users using a walletless Google authentication and fiat payments using Chargebee.
 
-## Business Model and Tokenomics:
-- The rental model can also be a source of continuous revenue to cover gas fees.
-- A portion of the platforms profits can be set in a pool to hedge against future gas fee volatility.
-- Brands or users can stake a certain amount of VET tokens for VTHO, which can be used to cover the operational costs on the platform.
-- Users with the loyalty pass can earn VTHO to offset gas fees by making purchases and leaving reviews.
 
 ## Incentives:
 ### For Consumers:
@@ -31,6 +26,13 @@ iences or the metaverse offering unique brand interactions in a growing marker.T
 - **Enhanced Brand Image:** Adopting a transparent and sustainable model enhances the brand's image, appealing to the growing demographic of conscious consumers.
 - **Reduced Returns:** With features like AR try-ons, consumers can make more informed decisions, potentially reducing return rates. 
 - **Market Differentiation:** In a competitive market, being a part of a transparent blockchain system can differentiate a supplier or manufacturer from competitors, potentially attracting more business.
+
+
+## Business Model and Tokenomics:
+- The rental model can also be a source of continuous revenue to cover gas fees.
+- A portion of the platforms profits can be set in a pool to hedge against future gas fee volatility.
+- Brands or users can stake a certain amount of VET tokens for VTHO, which can be used to cover the operational costs on the platform.
+- Users with the loyalty pass can earn VTHO to offset gas fees by making purchases and leaving reviews.
 
 
 ### MIT License
