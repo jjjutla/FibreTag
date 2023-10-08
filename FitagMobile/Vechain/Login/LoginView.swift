@@ -26,10 +26,10 @@ struct LoginView: View {
                 
                 VStack {
                     
-                    Image("logo")
+                    Image("Fitag_logo")
                         .resizable()
                         .scaledToFit()
-                        .frame(height: 70)
+                        .frame(height: 120)
                         .padding(.top, 40)
                         .padding(.bottom, 60)
                     

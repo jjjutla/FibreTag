@@ -28,3 +28,6 @@ var clothes: [Clothing] = [
     Clothing(name: "Leather Bag", company: "Louis Vuitton", price: 230, imageUrl: "nft8", model: "nft8.usdz", isLiked: true)
 ]
 
+var nfcClothes: [Clothing] = [
+    Clothing(name: "T-Shirt", company: "Vechain", price: 140, imageUrl: "vechain", model: "sneaker.usdz", isLiked: false)
+]

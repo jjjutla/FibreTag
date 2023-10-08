@@ -76,7 +76,7 @@
 		DA5B3D622AD25B6F00B1A1AC /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
 		DA5B3D642AD2650600B1A1AC /* NFCFoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCFoundView.swift; sourceTree = "<group>"; };
 		DA738AF92AD2B57200F60741 /* +View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+View.swift"; sourceTree = "<group>"; };
-		DAAFFDCB2AC4A5B500854DD9 /* Vechain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vechain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAAFFDCB2AC4A5B500854DD9 /* FiTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAAFFDCE2AC4A5B500854DD9 /* VechainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VechainApp.swift; sourceTree = "<group>"; };
 		DAAFFDD02AC4A5B500854DD9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DAAFFDD42AC4A5B600854DD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -173,7 +173,7 @@
 		DAAFFDCC2AC4A5B500854DD9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DAAFFDCB2AC4A5B500854DD9 /* Vechain.app */,
+				DAAFFDCB2AC4A5B500854DD9 /* FiTag.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -274,9 +274,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DAAFFDCA2AC4A5B500854DD9 /* Vechain */ = {
+		DAAFFDCA2AC4A5B500854DD9 /* FiTag */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAAFFDDB2AC4A5B600854DD9 /* Build configuration list for PBXNativeTarget "Vechain" */;
+			buildConfigurationList = DAAFFDDB2AC4A5B600854DD9 /* Build configuration list for PBXNativeTarget "FiTag" */;
 			buildPhases = (
 				DAAFFDC72AC4A5B500854DD9 /* Sources */,
 				DAAFFDC82AC4A5B500854DD9 /* Frameworks */,
@@ -286,7 +286,7 @@
 			);
 			dependencies = (
 			);
-			name = Vechain;
+			name = FiTag;
 			packageProductDependencies = (
 				DAC9E0F02ACCCF43008D0193 /* SwiftNFC */,
 				DA8364922ACEAD4700F45FB0 /* FirebaseAnalytics */,
@@ -321,7 +321,7 @@
 				DAC39B232AD23F810094E4F3 /* FocusEntity */,
 			);
 			productName = Vechain;
-			productReference = DAAFFDCB2AC4A5B500854DD9 /* Vechain.app */;
+			productReference = DAAFFDCB2AC4A5B500854DD9 /* FiTag.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -358,7 +358,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DAAFFDCA2AC4A5B500854DD9 /* Vechain */,
+				DAAFFDCA2AC4A5B500854DD9 /* FiTag */,
 			);
 		};
 /* End PBXProject section */
@@ -547,8 +547,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -580,8 +579,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -607,7 +605,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAAFFDDB2AC4A5B600854DD9 /* Build configuration list for PBXNativeTarget "Vechain" */ = {
+		DAAFFDDB2AC4A5B600854DD9 /* Build configuration list for PBXNativeTarget "FiTag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAAFFDDC2AC4A5B600854DD9 /* Debug */,

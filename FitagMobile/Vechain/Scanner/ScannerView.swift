@@ -59,7 +59,7 @@ struct ScannerView: View {
                             }
                             .padding(.horizontal, 16)
                             .sheet(isPresented: $showFoundView) {
-                                NFCFoundView(nfcData: NFCR.msg)
+                                NFCFoundView(clothes: nfcClothes[0])
                             }
                             
                             Spacer()
