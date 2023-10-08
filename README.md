@@ -1,5 +1,13 @@
 # FiTag: Sustainable Luxury Fashion
 
+## Table of Contents
+Images
+Problems Solved
+Incentives
+Business Model and Tokenomics
+Technical Features
+
+
 FiTag is a Luxury Fashion tracking iOS app that promotes transparency in a brands supply chain through the vechain blockchain. From sourcing to sale, we utilize NFC tags to ensure full transparency and assist brands with compliance in the latest sustainability regulations set by the Fashion Industry Charter. Beyond serving as a marketplace, FiTag promotes a circular economy with its rental model, and our NFT's not only guarantee product authenticity but also provides digital ownership. Additionally, our loyalty tokens unlock exclusive AR try-ons and early product releases elevating the shopping experience while minimising on global shipping.
 
 ## Images
@@ -12,7 +20,7 @@ FiTag is a Luxury Fashion tracking iOS app that promotes transparency in a brand
 
 Find a video demo [here](https://youtube.com/shorts/-bcWPqIdZ9k)
 
-## Solved Problems
+## Problems Solved
 - [85% of fashion's carbon emissions](https://web-assets.bcg.com/1e/23/d9e9792a4988b61e708794baa174/bcg-sustainability-metaverse-in-fashion-opportunity-or-threat-oct-2022.pdf) come from distribution and suppliers; our blockchain record identifies major emitters. 
 - By 2023, the [Fashion Industry Charter](https://unfccc.int/climate-action/sectoral-engagement-for-climate-action/fashion-charter) mandates a 50% emission cut for all brands; we assess supply chain data to verify brand compliance. 
 - [The USA discards over 2,150 tons of clothing per second](https://wiltonchamber.com/event-detail/sustainability-in-fashion-curating-an-ethically-conscious-closet/#:~:text=Did%20you%20know%20that%20Americans,pieces%20of%20clothing%20per%20second.); our rental service promotes a circular fashion economy. 
@@ -67,7 +75,7 @@ We integrated blockchain onboarding with traditional economic systems by leverag
 The supply chain server is designed with a public REST API endpoint facilitated by Vercel. Interaction with the blockchain is managed through Web3.js, which interfaces with a custom Solidity smart contract tailored for recording manufacturing stages. Instead of conventional block numbers, the system employs JavaScript's date() function to store timestamps in a human-readable format. The entire contract development lifecycle, from compilation to deployment, is streamlined using Hardhat, ensuring a robust and optimized smart contract deployment for the supply chain.
 
 
-### MIT License
+## MIT License
 
 Copyright (c) 2023 Artemiy Malyshau, Adesh Dooraree, Jeevan Jutla
 
