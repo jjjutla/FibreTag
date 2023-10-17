@@ -1,4 +1,5 @@
-# FiTag: Sustainable Luxury Fashion
+# FibreTag: Sustainable Luxury Fashion at your Fingertips
+
 
 ## Table of Contents
 [Images](https://github.com/nkoorty/FiTag#images) \
