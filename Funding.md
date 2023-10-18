@@ -190,19 +190,31 @@ DRESSX is a digital fashion platform where users can purchase and wear digital-o
 
 Unlike FibreTag, DRESSX primarily emphasises the concept of digital fashion and its environmental benefits. FibreTag, on the other hand, offers a comprehensive view of a product's journey through the use of blockchain and NFC technologies, ensuring transparency and combating counterfeits in the luxury fashion market, while also providing the physical item. Furthermore, with FibreTag's unique NFT digital twin system, it not only guarantees the product's authenticity but also promotes unparalleled transparency for both brands and users.
 
-
 ## Team
 
 ### Team Members
+* Name of Team Leader: Jeevan Jutla
+* Name of Team Member: Artemiy Malyshau
 
 ### Team's Experience
 
+**Jeevan Jutla**: Jeevan is a security engineer at Binance who has worked in the blockchain industry for 2 years. Jeevan has recently graduated from King's College London with a First Class Honors in Electronic Engineering and won several blockchain hackathons (vechain, Tezos, Polkadot, etc).
+
+**Artemiy Malyshau**: Artemiy is a postgraduate Imperial College London studying CS & Engineering. Artemiy has recently graduated from King's College London with a First Class Honors in Electronic Engineering and has worked at crypto start-ups based in Austria and won a variety of hackathons, ranging from Web2 (IC Hack 23, biggest hackathon in the UK) to Web3 (vechainTezos, ImmutableX, Polkadot).
+
 ### Team's Code Repositories
+* https://github.com/jjjutla/Melobyte
+* https://github.com/jjjutla/Corda-CBDC-Backend
+* https://github.com/nkoorty/rl_parking
+* https://github.com/nkoorty/ICHack23
 
 ### Team LinkedIn profiles
+Jeevan: https://www.linkedin.com/in/jeevan-jutla/
+Artemiy: https://www.linkedin.com/in/artemiy-malyshau/
 
 ## Development Roadmap
 
 ## Future Plans
 
 ## Additional Information
+This project was initially built for the vechain x EasyA hackathon held at Harvard University, where it finished 1st for the BCG track. For the purpose of this application, the project scope has been updated and adjusted accordingly in order to reflect a clear unique selling point (USP), and product market fit (PMF). Additionally, the infrastructure plans for bothe backend and frontend have been significantly improved.
