@@ -6,7 +6,7 @@
 ### Team Details
 * Project name: FibreTag
 * Team name: FibreTag (previously FiTag at the hackathon)
-* GitHub handle: ADD
+* GitHub handle: https://github.com/jjjutla/FibreTag
 * College/Employer: Imperial College London, King's College London, Binance
 * Payment Address: 0xBdd509667c30c04bBA844819373fa028A0ED3294
 
@@ -23,12 +23,12 @@ Vechain's reputable collaborations with luxury brands and its anti-counterfeitin
 ## Project Overview
 
 ### Mockups/Design components
-<img src=https://github.com/jjjutla/FibreTag/assets/80065244/815e40f9-dd56-4c20-a309-aa8deb025e4d width=16% height=16%>
-<img src=https://github.com/jjjutla/FibreTag/assets/80065244/670be707-cd5d-4998-9a28-4f2689faaeb2 width=16% height=16%>
-<img src=https://github.com/jjjutla/FibreTag/assets/80065244/9ad17fc9-480a-4152-9de4-9a9e895f09e8 width=16% height=16%>
-<img src=https://github.com/jjjutla/FibreTag/assets/80065244/cc91c022-1893-4b8e-b9fc-9f7d2bf292d4 width=16% height=16%>
-<img src=https://github.com/jjjutla/FibreTag/assets/80065244/bddbc665-0427-4db5-8e05-cc95531de201 width=16% height=16%>
-<img src=https://github.com/jjjutla/FibreTag/assets/80065244/7e8daa36-08b6-4ac2-9eb3-7977d117b5cf width=16% height=16%>
+<img src="https://github.com/jjjutla/FibreTag/assets/80065244/815e40f9-dd56-4c20-a309-aa8deb025e4d" height="280px">
+<img src="https://github.com/jjjutla/FibreTag/assets/80065244/670be707-cd5d-4998-9a28-4f2689faaeb2" height="280px">
+<img src="https://github.com/jjjutla/FibreTag/assets/80065244/9ad17fc9-480a-4152-9de4-9a9e895f09e8" height="280px">
+<img src="https://github.com/jjjutla/FibreTag/assets/80065244/cc91c022-1893-4b8e-b9fc-9f7d2bf292d4" height="280px">
+<img src="https://github.com/jjjutla/FibreTag/assets/80065244/bddbc665-0427-4db5-8e05-cc95531de201" height="280px">
+<img src="https://github.com/jjjutla/FibreTag/assets/80065244/7e8daa36-08b6-4ac2-9eb3-7977d117b5cf" height="280px">
 
 
 ### API Specifications
