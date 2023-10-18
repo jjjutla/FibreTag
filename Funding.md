@@ -180,6 +180,7 @@ MVP was submitted for the EasyA x vechain hackathon, however, significant change
 ## Ecosystem Fit
 
 **IYK (https://iyk.app/)**
+
 IYK is an invite-only platform to provide consumers with “IYK modules” that act as tags that one can attach to physical clothing items in order to create a phygital representation of said clothing item. 
 
 IYK focuses on the consumer of the clothing, hence, while FibreTag heavily focuses on the transparency of the supply chain and how both brands and users alike can increase brand trust and loyalty, respectively.
