@@ -33,66 +33,19 @@ Find a video demo [here](https://youtube.com/shorts/-bcWPqIdZ9k)
 - **Proof of Authenticity:** Each NFT serves as a digital certificate of authenticity. WIth counterfeits rampant in the luxury market having an NFT assures the consumer of the item’s genuineness. 
 - **Digital Ownership:** The NFT represents digital ownership allowing consumers to showcase their luxury items in virtual spaces such as metaverses or social media platforms
 - **Resale Value:** With the NFT, the resale market becomes more transparent. A buyer can verify the item's history, ensuring it's genuine and well-maintained, potentially increasing its resale value.
-- **Exclusive Access:** Loyalty passes can grant customers exclusive access to brand events, AR try ons or early releases enhancing their luxury shopping experience.
 
 ### For Brands, Manufacturers and Suppliers:
 - **Counterfeit Deterrences:** By issuing NFT's brands can significantly deter counterfeiting as replicating physical items wont come with the genuine NFT.
-- **Expanding Brand Reach:** By authenticating used or rented luxury items, brands can attract and assure a broader range of customers, including those with lower incomes, thereby widening their market presence.
-- **Enhanced Customer Engagements and Retention:** NFT’s can be integrated with AR experiences or the metaverse offering unique brand interactions in a growing marker.The loyalty program, backed by token incentives, encourages repeat purchases and engagement. 
-- **Data Insights:** By tracking consumer behavior through token redemptions and NFT interactions, brands can gain valuable insights to tailor marketing strategies and product launches. Brands can monitor secondary markets such as the resale market, ginning insights into product life cycles, demand and consumer behaviour, prodiving more data.
+- **Expanding Brand Reach:** By authenticating used luxury items, brands can attract and assure a broader range of customers, including those with lower incomes, thereby widening their market presence.
+- **Data Insights:** By tracking the history of products, brands can gain valuable insights to tailor marketing strategies and product launches. Brands can monitor secondary markets such as the resale market, ginning insights into product life cycles, demand and consumer behaviour, prodiving more data.
 - **Regulation Compliance:** Allows brands to get compliant with regulations and streamline audits: Fashion Industry Charter for Climate Action (Will be enforced by the end of 2030 to cut emissions in the fashion industry by 50%)
 - **Enhanced Brand Image:** Adopting a transparent and sustainable model enhances the brand's image, appealing to the growing demographic of conscious consumers.
-- **Reduced Returns:** With features like AR try-ons, consumers can make more informed decisions, potentially reducing return rates. 
 - **Market Differentiation:** In a competitive market, being a part of a transparent blockchain system can differentiate a supplier or manufacturer from competitors, potentially attracting more business.
-
-
-## Business Model and Tokenomics:
-- The rental model can also be a source of continuous revenue to cover gas fees.
-- A portion of the platforms profits can be set in a pool to hedge against future gas fee volatility.
-- Brands or users can stake a certain amount of VET tokens for VTHO, which can be used to cover the operational costs on the platform.
-- Users with the loyalty pass can earn VTHO to offset gas fees by making purchases and leaving reviews.
-
-### Loyalty Token Acquisition:
-- Users earn a loyalty token after buying 5 items from a brand, promoting repeat business.
-### Token Benefits:
-- Token holders get discounts and access to exclusive brand drops.
-### NFT Integration:
-- Each product has an NFT twin, validating its authenticity.
-- Loyalty tokens can enhance NFT utility (e.g., added discounts).
-- NFTs might record purchases, automatically awarding loyalty tokens after 5 buys.
-### Token Scarcity:
-- A fixed or dynamic token supply can be set. Token burns (removing tokens from circulation after use) can introduce scarcity.
-### Secondary Market:
-- Loyalty tokens and NFTs can be tradable. Trading might incur fees benefiting token holders.
-### Security:
-- Strong security measures and regular audits are essential to prevent fraud.
-
-## Technical Features:
-### iOS App
-The mobile app is programmed using SwiftUI and Swift in order to make networking calls to the FiTag backend. Features include the Marketplace overview, augmented reality interaction, NFC reading, and SwiftData to store the private key of the user's wallet locally. The app uses ARKit and RealityKit to interact with the phygitals, and SwiftNFC in order to read and write NFC tags.
-
-Login is done using **Google Firebase** and uses Google Oauth and email/password as a login.  The app uses MVVM architecture and and works on iOS 17 and above.
-### PoC Metamask Vechain: [Link](https://metamask-fitag.vercel.app/?testnets=true)
-
-
-![MM](https://github.com/nkoorty/FiTag/assets/22000925/6a15b83c-3127-4e39-8b1f-64b3942ab703)
-
-
-### Fiat Payments using Chargebee: [Link](https://payments-fitag.vercel.app/)
-
-We integrated blockchain onboarding with traditional economic systems by leveraging social logins and fee delegation. Utilizing the OpenZeppelin Wizard, a mintable and burnable NFT contract is generated, representing user payments. The vechain.energy API serves as a bridge for web applications to interact with the blockchain. Upon a successful transaction via payment gateways via chargebee the backend mints an NFT to the user's wallet, which is subsequently burned at the subscription's end. Chargebee manages the financial aspects, providing webhook notifications to the backend about subscription statuses. All interactions, including minting and burning of NFTs, are handled through API calls, ensuring seamless integration. 
-
-
-![fiat](https://github.com/nkoorty/FiTag/assets/22000925/2f8e1480-a6fc-4094-a3b7-8b21c300bf70)
-
-### Supply Chain Server: [Link](https://supplychain-fitag.vercel.app/api/getHistory)
-
-The supply chain server is designed with a public REST API endpoint facilitated by Vercel. Interaction with the blockchain is managed through Web3.js, which interfaces with a custom Solidity smart contract tailored for recording manufacturing stages. Instead of conventional block numbers, the system employs JavaScript's date() function to store timestamps in a human-readable format. The entire contract development lifecycle, from compilation to deployment, is streamlined using Hardhat, ensuring a robust and optimized smart contract deployment for the supply chain.
 
 
 ## MIT License
 
-Copyright (c) 2023 Artemiy Malyshau, Adesh Dooraree, Jeevan Jutla
+Copyright (c) 2023 Artemiy Malyshau, Jeevan Jutla
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
