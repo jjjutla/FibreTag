@@ -5,8 +5,6 @@
 [Images](https://github.com/nkoorty/FiTag#images) \
 [Problems Solved](https://github.com/nkoorty/FiTag#problems-solved) \
 [Incentives](https://github.com/nkoorty/FiTag#incentives) \
-[Business Model and Tokenomics](https://github.com/nkoorty/FiTag#business-model-and-tokenomics) \
-[Technical Features](https://github.com/nkoorty/FiTag#business-model-and-tokenomics)
 
 
 FibreTag is an iOS app that combines the power of vechain’s blockchain technology with the dual needs of the luxury fashion market: combating counterfeits and promoting sustainability. We utilise NFC technology to provide a comprehensive view of a product's journey from raw materials to the customer and upon purchase, users also receive a unique NFT digital twin to further guarantee authenticity and offer unparalleled transparency.
