@@ -215,7 +215,66 @@ Artemiy: https://www.linkedin.com/in/artemiy-malyshau/
 
 ## Development Roadmap
 
+### Overview
+|  | Milestone 1 | Milestone 2 |  Milestone 3 | Milestone 4 |Total |
+| - | - |- | - | - | - |
+| Estimated Duration | 20 d | 60 d | 45 d | 10d |135d |
+| Full-time equivalent (FTE) | 1 | 2 | 1.5 | 0.5 | 5 |
+| Cost (up to $ 30,000) | $ 3,500 | $ 14,500 | $ 8,500 | $ 2,500 | $ 30,000 |
+
+### Milestone 1 - Research & Development, Analysis, and Design
+
+| Number | Deliverable | Specification |
+|-|-|-|
+| 1 | Report | Create clear and concise requirements for blockchain integration, product tracking, transparent sustainability metrics, and technical implementation |
+| 2 | Designs | Design UI/UX and system based on market research and necessary requirements set out by consumers and brands |
+| 3 | Report | Review pain points of consumers and brands based on ecosystem fit, by discussing with luxury brands |
+
+### Milestone 2 - Technical Implementation 
+
+| Number | Deliverable | Specification |
+|-|-|-|
+| 1 | Smart contracts | Develop the tracking smart contract, include functions for comprehensive product lifecycle management, implement stringent access controls to ensure only authorized users can perform actions, and construct a secure transfer mechanism to automate NFT ownership transfers upon product sales |
+| 2 | Smart contracts | Develop digital twin NFT contract for the item and bridge with vechain.energy API |
+| 3 | Backend | Integrate the contract into a backend to handle the NFT minting/burning upon payment and use a payment processor like Stripe to manage finances and notify the backend of transactions |
+| 4 | Frontend | Develop initial prototype for the iOS app. Creating specialized code integrations for Google OAuth, efficient NFC read/write, and backend networking integration using native Swift library Combine |
+| 5 | Backend | Create REST API infrastructure with custom endpoints for users on mobile devices and brands utilizing a web frontend |
+| 6 | Frontend | Develop web frontend for brands to use in order to visaulise transaction data |
+| 7 | Report | Revise prototype based on feedback from vechain team |
+
+### Milestone 3 - QA Testing and Refinement
+
+| Number | Deliverable | Specification |
+|-|-|-|
+| 1 | Report | Incorporate feedback from the vechain team |
+| 2 | Codebase | Revising iOS and Web prototypes based on feedback and respective UI tests (XCTests for Swift/XCode, unit tests for Web) |
+| 3 | Tests | Ensure reliable and safe integration of backend, including pen-testing and relevant stress-testing |
+| 4 | Marketing | Finalize marketing plans for consumers and pitches for brands to integrate into their supply chains |
+
+### Milestone 4 - Final Testing and Deployment
+
+| Number | Deliverable | Specification |
+|-|-|-|
+| 1 | Tests | Conduct, if necessary, final UI/UX tests and infrastructure tests if any pain points are detected. Patch any unnoticed or previously undetected errors |
+| 2 | Deployment | Deploy iOS app to the Apple App Store, ensure that App Store Connect Team approves the app without any unexpected issues |
+| 3 | Marketing | Roll out marketing plans for both consumers and brands based on outlined market strategy |
+
 ## Future Plans
+
+### 1. Expanded Partnership Network
+To increase the platform's value proposition we aim to forge partnerships with more luxury brands. This not only expands our target audience but also establishes FibreTag as the industry standard solution for luxury item authentication
+
+### 2. AR Experiences
+Leveraging advancements in Apple’s ARKit technology we plan to offer more immersive experiences for users and bridge the gap to the metaverse. We aim to tackle the problem of extreme waste in clothes by allowing the user to try on and view luxury items in real time interacting in 3D space.
+
+
+### 3. ML Fraud Detection
+To verify the validity of the supply chain we aim to use machine learning to plan to develop algorithms that can detect anomalous patterns or potential fraudulent activities within the platform.
+
+
+### 4. Expansion of Marketplace
+Beyond being a verification tool and middleman to the luxury brand, FibreTag will evolve into an integrated marketplace where users can buy and sell authenticated luxury items in the app. This will help promote a circular economy within the fashion industry further reducing waste.
+
 
 ## Additional Information
 This project was initially built for the vechain x EasyA hackathon held at Harvard University, where it finished 1st for the BCG track. For the purpose of this application, the project scope has been updated and adjusted accordingly in order to reflect a clear unique selling point (USP), and product market fit (PMF). Additionally, the infrastructure plans for bothe backend and frontend have been significantly improved.
