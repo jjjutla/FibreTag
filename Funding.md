@@ -34,7 +34,7 @@ MISSING
 
 ### API Specifications
 
-#### POST /items/register
+#### 1. POST /items/register
 **Purpose:** Register a new luxury item in the system and on the blockchain
 
 **Body:**
@@ -48,18 +48,19 @@ MISSING
 - itemID: Unique ID of the item generated on the backend
 - message: Success or Error message
 
-#### POST /items/updateStage
-Purpose: Update the stage of an item in the supply chain
-Body:
-* itemID: Unique ID of the item
-* nfcUID: Unique NFC identifier
-* stage: The stage (e.g. “Manufacturing”, “Packaging”, “Shipping”) 
-* action: “start" or "stop". Indicates whether the stage is being started or completed.
-* workerID: ID of the worker updating the stage
-* timestamp: Date-time of the action. If not provided, server current time is used.
-Response:
-* success: True/False
-* message: Success or Error message
+#### 2. POST /items/updateStage
+**Purpose:** Update the stage of an item in the supply chain
+
+**Body:**
+- itemID: Unique ID of the item
+- nfcUID: Unique NFC identifier
+- stage: The stage (e.g. “Manufacturing”, “Packaging”, “Shipping”) 
+- action: “start" or "stop". Indicates whether the stage is being started or completed.
+- workerID: ID of the worker updating the stage
+- timestamp: Date-time of the action. If not provided, server current time is used.
+**Response:**
+- success: True/False
+- message: Success or Error message
 
 #### GET /items/{itemID}/history
 Purpose: The main objective of this endpoint is to provide a comprehensive history of a luxury item. This history captures every stage of the item's journey within the supply chain. By accessing this, third-party developers, businesses, or end-users can validate the authenticity and provenance of the item, ensuring that it adheres to the standards and processes claimed by the seller or manufacturer. 
