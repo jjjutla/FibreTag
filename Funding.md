@@ -1,6 +1,6 @@
 # FibreTag - vechain x Easy A Startup Grant Application
 ## Project Overview
-* Problem statement: BCG track
+* Problem statement: BCG Track
 * Are you applying for the grant with the same project you submitted at the vechain Hackathon: **No**
 
 ### Team Details
@@ -11,15 +11,15 @@
 * Payment Address: 0xBdd509667c30c04bBA844819373fa028A0ED3294
 
 ## Overview
-FibreTag is an iOS app that uses the VechainThor Blockchain to enhance brand trust in the luxury fashion industry. By tracking and disclosing product origins, manufacturing procedures, raw materials, and previous owners, we combat counterfeits and champion sustainability. Utilizing NFC technology, FibreTag offers users an in-depth view of a product's journey from raw material to purchase. Additionally, each purchase comes with a unique NFT digital twin, ensuring authenticity and providing transparency for conscious consumers.
+FibreTag is an iOS app that uses the VechainThor Blockchain to enhance brand trust in the luxury fashion industry. By tracking and disclosing product origins, manufacturing procedures, raw materials, and previous owners, FibreTag combats counterfeits and promotes sustainability. Utilizing NFC technology, FibreTag offers users an in-depth view of a product's journey from raw material to purchase. Additionally, each purchase comes with a unique NFT digital twin, ensuring authenticity and providing transparency for conscious consumers.
 
 ### Why vechain?
 Vechain's reputable collaborations with luxury brands and its anti-counterfeiting solutions make it a natural fit for FibreTag. Its scalable technology aligns with our requirements, and our shared focus on sustainability in fashion is further strengthened by vechain's immutable records, ensuring the unalterable transparency of a product's journey and sourcing. Smart contracts on vechain automate and validate transactions, guaranteeing adherence to ethical and sustainable practices. Vechain's easy to use toolset streamlines our development process and their transparent framework amplifies FibreTag's commitment to authenticity. 
 
-### Project vechain/BCG one-pager
-MISSING
+### Project vechain/BCG One-Pager
+[Link - BCG One-Pager](https://docs.google.com/presentation/d/1_6RE86vvQdzFI_mWNwi6tx4I9ybjJG1a/edit?usp=sharing&ouid=102918366363179824848&rtpof=true&sd=true)
 ### Pitch deck
-MISSING
+[Link - Pitch Deck](https://www.canva.com/design/DAFwrOTOyeg/lv0ChjaRq_12xrtdscUmDg/edit)
 ## Project Overview
 
 ### Mockups/Design components
@@ -54,9 +54,9 @@ MISSING
 - itemID: Unique ID of the item
 - nfcUID: Unique NFC identifier
 - stage: The stage (e.g. “Manufacturing”, “Packaging”, “Shipping”) 
-- action: “start" or "stop". Indicates whether the stage is being started or completed.
+- action: “start" or "stop". Indicates whether the stage is being started or completed
 - workerID: ID of the worker updating the stage
-- timestamp: Date-time of the action. If not provided, server current time is used.
+- timestamp: Date-time of the action. If not provided, server current time is used
   
 **Response:**
 - success: True/False
@@ -66,7 +66,7 @@ MISSING
 **Purpose:** The main objective of this endpoint is to provide a comprehensive history of a luxury item. This history captures every stage of the item's journey within the supply chain. By accessing this, third-party developers, businesses, or end-users can validate the authenticity and provenance of the item, ensuring that it adheres to the standards and processes claimed by the seller or manufacturer. 
 
 **Headers:**
-- API-Key: Unique API key assigned to a registered user.
+- API-Key: Unique API key assigned to a registered user
   
 **Parameters:**
 - itemID: Unique ID of the item
@@ -87,7 +87,7 @@ MISSING
 **Response:**
 - success: True/False
 - nftID: Unique ID of the generated NFT
-- message:Success or error message indicating if the NFT minting was successful or not.
+- message: Success or error message indicating if the NFT minting was successful or not
 
 #### 5. GET /items/{itemID}/nftDetails:
 **Purpose:** Get details of the associated NFT digital twin for an item.
@@ -127,16 +127,16 @@ MISSING
 
 ### Technology Stack
 
-* REST API backend running Web3.js/Thorify to interact with smart contracts
-* Solidity Tracking smart contract
-* Digital Twin NFT contract
-* FIAT Payment contract
-* Vechain.energy API key as blockchain bridge
-* iOS frontend written in Swift using SwiftUI/UIKit. App is built using MVVM architecture, widely regarded as the one of the best mobile architectures for clearly separating UI and internal logic using internal Xcode target frameworks
-* Basic Web frontend to visualize tracking history
+* REST API backend running Web3.js/Thorify to interact with smart contracts.
+* Solidity tracking smart contract.
+* Digital twin NFT smart contract.
+* FIAT payment smart contract.
+* Vechain.energy API integration as blockchain bridge.
+* iOS frontend written in Swift using SwiftUI/UIKit. App is built using MVVM architecture, widely regarded as the one of the best mobile architectures for clearly separating UI and internal logic using internal Xcode target frameworks.
+* Basic Web frontend to visualize tracking history.
 
 
-When a user downloads the app they are presented with several login options - login as a manufacturer scanning and updating tag information or as a consumer wanting to view the history and validate authentication. To allow for an easy onboarding we have a conventional login using Google OAuth which is integrated through Google Firebase, which acts as the server backend for all centralized FibreTag information that does not require the immutability or decentralization of the VechainThor blockchain. Upon successful account creation, certain premium features within the app are locked until activated with a valid API key.
+When a user downloads the app they are presented with several login options - login as a manufacturer scanning and updating tag information or as a consumer wanting to view the history and validate authentication of an item. To allow for an easy onboarding we have a conventional login using Google OAuth which is integrated through Google Firebase, which acts as the server backend for all centralized FibreTag information that does not require the immutability or decentralization of the VechainThor blockchain. Upon successful account creation, certain premium features within the app are locked until activated with a valid API key.
 
 The app provides an easy overview of the FibreTag marketplace, where FibreTag acts as a middle man for users to purchase products from companies that partner with FibreTag. Additionally, users are able to scan the physical NFC tags in the clothing to validate and ensure the validity and origins of their clothing. On top of that, the NFT phygital feature is used to its fullest extent when operated via the iOS app due to the amount of native support Apple provides with its ARKit and RealityKit libraries. Please keep in mind that users can store their private keys for their wallets locally on device using SwiftData und UserDefaults - 2 features Apple provides for device-only information.
 
@@ -225,8 +225,8 @@ Unlike FibreTag, DRESSX primarily emphasises the concept of digital fashion and 
 * https://github.com/nkoorty/ICHack23
 
 ### Team LinkedIn profiles
-Jeevan: https://www.linkedin.com/in/jeevan-jutla/
-Artemiy: https://www.linkedin.com/in/artemiy-malyshau/
+- Jeevan: https://www.linkedin.com/in/jeevan-jutla/
+- Artemiy: https://www.linkedin.com/in/artemiy-malyshau/
 
 ## Development Roadmap
 
