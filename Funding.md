@@ -16,7 +16,7 @@ FibreTag is an iOS app that uses the VechainThor Blockchain to enhance brand tru
 ### Why vechain?
 Vechain's reputable collaborations with luxury brands and its anti-counterfeiting solutions make it a natural fit for FibreTag. Its scalable technology aligns with our requirements, and our shared focus on sustainability in fashion is further strengthened by vechain's immutable records, ensuring the unalterable transparency of a product's journey and sourcing. Smart contracts on vechain automate and validate transactions, guaranteeing adherence to ethical and sustainable practices. Vechain's easy to use toolset streamlines our development process and their transparent framework amplifies FibreTag's commitment to authenticity. 
 
-### Project vechain/BCG One-Pager
+### BCG One-Pager
 [Link - BCG One-Pager](https://docs.google.com/presentation/d/1_6RE86vvQdzFI_mWNwi6tx4I9ybjJG1a/edit?usp=sharing&ouid=102918366363179824848&rtpof=true&sd=true)
 ### Pitch deck
 [Link - Pitch Deck](https://www.canva.com/design/DAFwrOTOyeg/lv0ChjaRq_12xrtdscUmDg/edit)
