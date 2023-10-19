@@ -38,7 +38,6 @@ MISSING
 **Purpose:** Register a new luxury item in the system and on the blockchain
 
 **Body:**
-
 - nfcUID: Unique NFC identifier
 - itemName: Name of the item
 - description: Description of item
@@ -58,59 +57,71 @@ MISSING
 - action: “start" or "stop". Indicates whether the stage is being started or completed.
 - workerID: ID of the worker updating the stage
 - timestamp: Date-time of the action. If not provided, server current time is used.
+  
 **Response:**
 - success: True/False
 - message: Success or Error message
 
-#### GET /items/{itemID}/history
-Purpose: The main objective of this endpoint is to provide a comprehensive history of a luxury item. This history captures every stage of the item's journey within the supply chain. By accessing this, third-party developers, businesses, or end-users can validate the authenticity and provenance of the item, ensuring that it adheres to the standards and processes claimed by the seller or manufacturer. 
-Headers:
-* API-Key: Unique API key assigned to a registered user.
-Parameters:
-* itemID: Unique ID of the item
-Response:
-* success: True/False
-* item: Details of the item
-* istory: Array of historical stages and associated details
+#### 3. GET /items/{itemID}/history
+**Purpose:** The main objective of this endpoint is to provide a comprehensive history of a luxury item. This history captures every stage of the item's journey within the supply chain. By accessing this, third-party developers, businesses, or end-users can validate the authenticity and provenance of the item, ensuring that it adheres to the standards and processes claimed by the seller or manufacturer. 
 
-#### POST /items/generateNFT:
-Purpose: This endpoint serves to mint the NFT digital twin immediately after a sale. Using google walletless login, the user's wallet is identified, and the NFT is minted and sent directly to that wallet. The vechain.energy API key is used as a blockchain bridge to the luxury store’s payment processor. 
-Body:
-* itemID: Unique ID of the item
-* paymentID: Unique ID of the payment provided by the payment provider
-* userWalletAddress: Wallet address of the user obtained through the walletlessAPI
-Response:
-* success: True/False
-* nftID: Unique ID of the generated NFT
-* message:Success or error message indicating if the NFT minting was successful or not.
+**Headers:**
+- API-Key: Unique API key assigned to a registered user.
+  
+**Parameters:**
+- itemID: Unique ID of the item
+  
+**Response:**
+- success: True/False
+- item: Details of the item
+- History: Array of historical stages and associated details
 
-#### GET /items/{itemID}/nftDetails:
-Purpose: Get details of the associated NFT digital twin for an item.
-Parameters:
-* itemID: Unique ID of the item
-Response:
-* success: True/False
-* nftDetails: Details of the associated NFT.
+#### 4. POST /items/generateNFT:
+**Purpose:** This endpoint serves to mint the NFT digital twin immediately after a sale. Using google walletless login, the user's wallet is identified, and the NFT is minted and sent directly to that wallet. The vechain.energy API key is used as a blockchain bridge to the luxury store’s payment processor. 
 
-#### POST /workers/authenticate:
-Purpose: Authenticate a worker, ensuring only authorized personnel can update items. 
-Body:
-* workerID: Unique ID of the worker
-* password: Worker password (servier side hashed and salted)
-Response:
-* success: True/False
-* Token: Auth token for subsequent authenticated requests (JWT)
-* message:Success or error message
+**Body:**
+- itemID: Unique ID of the item
+- paymentID: Unique ID of the payment provided by the payment provider
+- userWalletAddress: Wallet address of the user obtained through the walletlessAPI
+  
+**Response:**
+- success: True/False
+- nftID: Unique ID of the generated NFT
+- message:Success or error message indicating if the NFT minting was successful or not.
 
-#### POST /users/walletlessLogin:
-Purpose: This endpoint enables users to perform a walletless login using Google OAuth on the web interface for brands to view data. The primary function is to authenticate users via Google and simultaneously retrieve their associated public wallet address. Please note that the iOS app is going to use Google Firebase in order to perform the same actions.
-Body:
-* googleToken: The token provided by Google upon user authentication
-Response:
-* success: True/False
-* userID: Unique ID of the user in your system
-* userWalletAddress: Waller address of the user obtained through Google Auth integration
-* message: Success or error message, indicating the result of the process.
+#### 5. GET /items/{itemID}/nftDetails:
+**Purpose:** Get details of the associated NFT digital twin for an item.
+
+**Parameters:**
+- itemID: Unique ID of the item
+  
+**Response:**
+- success: True/False
+- nftDetails: Details of the associated NFT.
+
+#### 6. POST /workers/authenticate:
+**Purpose:** Authenticate a worker, ensuring only authorized personnel can update items. 
+
+**Body:**
+- workerID: Unique ID of the worker
+- password: Worker password (servier side hashed and salted)
+  
+**Response:**
+- success: True/False
+- Token: Auth token for subsequent authenticated requests (JWT)
+- message:Success or error message
+
+#### 7. POST /users/walletlessLogin:
+**Purpose:** This endpoint enables users to perform a walletless login using Google OAuth on the web interface for brands to view data. The primary function is to authenticate users via Google and simultaneously retrieve their associated public wallet address. Please note that the iOS app is going to use Google Firebase in order to perform the same actions.
+
+**Body:**
+- googleToken: The token provided by Google upon user authentication
+  
+**Response:**
+- success: True/False
+- userID: Unique ID of the user in your system
+- userWalletAddress: Waller address of the user obtained through Google Auth integration
+- message: Success or error message, indicating the result of the process.
 
 ---
 
