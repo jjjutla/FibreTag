@@ -35,15 +35,18 @@ MISSING
 ### API Specifications
 
 #### POST /items/register
-Purpose: Register a new luxury item in the system and on the blockchain
-Body:
-* nfcUID: Unique NFC identifier
-* itemName: Name of the item
-* description: Description of item
-Response:
-* success: True/False
-* itemID: Unique ID of the item generated on the backend
-* message: Success or Error message
+**Purpose:** Register a new luxury item in the system and on the blockchain
+
+**Body:**
+
+- nfcUID: Unique NFC identifier
+- itemName: Name of the item
+- description: Description of item
+  
+**Response:**
+- success: True/False
+- itemID: Unique ID of the item generated on the backend
+- message: Success or Error message
 
 #### POST /items/updateStage
 Purpose: Update the stage of an item in the supply chain
