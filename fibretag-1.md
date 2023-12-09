@@ -11,7 +11,6 @@ Please provide a list of all deliverables of the milestone extracted from the in
 
 | Number | Deliverable | Link | Notes |
 | ------------- | ------------- | ------------- |------------- |
-| 1 | Report |  | Please keep in mind that, for the sake of conciseness, all deliverables have been merged into one singular report. The report covers
-how FibreTag navigates the complex luxury industry ecosystem and the technical implementations necessary. |
+| 1 | Report |  | Please keep in mind that, for the sake of conciseness, all deliverables have been merged into one singular report. The report covers how FibreTag navigates the complex luxury industry ecosystem and the technical implementations necessary. |
 | 2 | Designs |  | UI/UX wireframes can be found in the Appendix of the report (pages 23-26) |
 | 3 | Report | | First chapter of the report provides an extensive overview of the state of the ecosystem and how FibreTag tackles these bottlenecks  |
