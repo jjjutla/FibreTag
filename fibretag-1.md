@@ -11,6 +11,6 @@ Please provide a list of all deliverables of the milestone extracted from the in
 
 | Number | Deliverable | Link | Notes |
 | ------------- | ------------- | ------------- |------------- |
-| 1 | Report |  | All deliverables have been merged into one singular report. The report covers how FibreTag navigates the complex luxury industry ecosystem and the technical implementations necessary. |
-| 2 | Designs |  | UI/UX wireframes can be found in the Appendix of the report (pages 23-26) |
-| 3 | Report | | First chapter of the report provides an extensive overview of the state of the ecosystem and how FibreTag tackles these bottlenecks  |
+| 1 | Report | [Research & Design Report (Chapter 2)](https://github.com/jjjutla/FibreTag/blob/main/Research%20%26%20Design%20Report.pdf) | All deliverables have been merged into one singular report. The report covers how FibreTag navigates the complex luxury industry ecosystem and the technical implementations necessary. |
+| 2 | Designs | [Research & Design Report (Appendix)](https://github.com/jjjutla/FibreTag/blob/main/Research%20%26%20Design%20Report.pdf) | UI/UX wireframes can be found in the Appendix of the report (pages 23-26) |
+| 3 | Report | [Research & Design Report (Chapter 1)](https://github.com/jjjutla/FibreTag/blob/main/Research%20%26%20Design%20Report.pdf) | First chapter of the report provides an extensive overview of the state of the ecosystem and how FibreTag tackles these bottlenecks  |
