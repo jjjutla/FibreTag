@@ -1,10 +1,10 @@
 import React from "react";
 import { Row, Col, Grid, Divider } from 'antd';
 import { Routes, Route, useLocation } from "react-router-dom";
-import SubscriptionsList from '../../Subscriptions/List';
-import SubscriptionsPending from '../../Subscriptions/Pending';
+import paymentsList from '../../payments/List';
+import paymentsPending from '../../payments/Pending';
 import Menu from './Menu';
-import Test from './Admin'; // Import the Test component
+import Test from './Admin'; 
 
 const { useBreakpoint } = Grid;
 
@@ -27,8 +27,8 @@ export default function LoggedIn() {
 
         <Col xs={24} lg={16}>
           <Routes>
-            <Route path="/" element={<SubscriptionsList />} />
-            <Route path="/success/:subscriptionId" element={<SubscriptionsPending />} />
+            <Route path="/" element={<paymentsList />} />
+            <Route path="/success/:paymentId" element={<paymentsPending />} />
           </Routes>
         </Col>
 

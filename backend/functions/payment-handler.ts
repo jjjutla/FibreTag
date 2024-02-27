@@ -4,21 +4,21 @@ const { VEN_API_KEY, VEN_ENDPOINT_URL, CONTRACT_ADDRESS } = config
 export async function onRequest({ request }): Promise<Response> {
   const payload = await request.json()
 
-  const tokenId = await idToTokenId(payload.content.subscription.id)
-  const address = payload.content.subscription.cf_wallet_address
+  const tokenId = await idToTokenId(payload.content.payment.id)
+  const address = payload.content.payment.cf_wallet_address
   console.log({ payload, tokenId, address })
 
 
-  if ('subscription_created' === payload.event_type) {
-    const tokenId = await idToTokenId(payload.content.subscription.id)
-    const address = payload.content.subscription.cf_wallet_address
+  if ('payment_created' === payload.event_type) {
+    const tokenId = await idToTokenId(payload.content.payment.id)
+    const address = payload.content.payment.cf_wallet_address
     const result = await mintToken(address, tokenId)
     const text = await result.text()
     return new Response(text)
   }
 
-  if (['subscription_cancelled', 'subscription_deleted'].includes(payload.event_type)) {
-    const tokenId = await idToTokenId(payload.content.subscription.id)
+  if (['payment_cancelled', 'payment_deleted'].includes(payload.event_type)) {
+    const tokenId = await idToTokenId(payload.content.payment.id)
     const result = await burnToken(tokenId)
     const text = await result.text()
     return new Response(text)
@@ -32,7 +32,7 @@ export async function mintToken(address: string, tokenId: string): Promise<any> 
   return await fetch(VEN_ENDPOINT_URL, {
     method: 'POST',
     headers: {
-      'x-api-key': VEN_API_KEY,
+      'x-api-key': "0xC96Cb5ba39BAEB236773C022fcb974d187430931",
       'content-type': 'application/json'
     },
     body: JSON.stringify({
@@ -68,7 +68,7 @@ export async function burnToken(tokenId: string): Promise<any> {
   return await fetch(VEN_ENDPOINT_URL, {
     method: 'POST',
     headers: {
-      'x-api-key': VEN_API_KEY,
+      'x-api-key': "0xC96Cb5ba39BAEB236773C022fcb974d187430931",
       'content-type': 'application/json'
     },
     body: JSON.stringify({

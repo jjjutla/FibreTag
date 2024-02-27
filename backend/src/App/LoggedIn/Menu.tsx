@@ -12,7 +12,7 @@ export default function MenuLoggedIn() {
     navigateTo('/')
   }
 
-  const handleManageSubscription = async () => {
+  const handleManagepayment = async () => {
     let cbInstance = Chargebee.getInstance();
     var chargebeePortalInstance = cbInstance.createChargebeePortal()
     chargebeePortalInstance.open()
@@ -24,7 +24,7 @@ export default function MenuLoggedIn() {
         <Link to='/'>My Payments</Link>
       </Col>
       <Col span={24}>
-        <Link onClick={handleManageSubscription} to='/'>Manage Payments</Link>
+        <Link onClick={handleManagepayment} to='/'>Manage Payments</Link>
       </Col>
       <Col span={24}>
         <Link to='/' onClick={handleDisconnect}>Sign Out</Link><br />

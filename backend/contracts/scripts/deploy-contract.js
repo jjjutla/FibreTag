@@ -5,7 +5,6 @@ const { writeFileSync, existsSync, mkdirSync } = require('fs')
 const { ARTIFACTS_DIR } = require('./modules/constants')
 
 async function main () {
-  // get contract names to deploy
   const contractNames = process.argv.slice(2)
 
   if (!contractNames.length) {
@@ -15,7 +14,6 @@ async function main () {
   const network = await getNetworkName(hre)
   console.log(`\nDeploying to **${String(network).toUpperCase()}** network\n`)
 
-  // ensure artifact directory in web app exists
   const networkArtifactsDir = `${ARTIFACTS_DIR}/${network}`
   if (!existsSync(networkArtifactsDir)) {
     mkdirSync(networkArtifactsDir, { recursive: true })
@@ -23,16 +21,12 @@ async function main () {
 
   for (const contractName of contractNames) {
     const deploying = Spinner(`[${contractName}] Deploying Contract `)
-
-    // get contract to deploy
     const Contract = await hre.thor.getContractFactory(contractName)
     const { abi } = await hre.artifacts.readArtifact(contractName)
 
-    // deploy and wait for result
     const deployedContract = await Contract.deploy()
     await deployedContract.deployed()
 
-    // archive contract interface and address
     writeFileSync(`${networkArtifactsDir}/${contractName}.json`, JSON.stringify({ address: deployedContract.address, abi }, '', 2))
 
     deploying.info(`[${contractName}] Artifact written to ${networkArtifactsDir}/${contractName}.json`)

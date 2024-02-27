@@ -5,7 +5,6 @@ const { readFileSync } = require('fs')
 const { ARTIFACTS_DIR } = require('./modules/constants')
 
 async function main () {
-  // get contract name to call
   const contractName = process.argv[2]
   const functionName = process.argv[3]
   const args = process.argv.slice(4)
