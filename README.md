@@ -10,14 +10,15 @@
 FibreTag is an iOS app that combines the power of vechain’s blockchain technology with the dual needs of the luxury fashion market: combating counterfeits and promoting sustainability. We utilise NFC technology to provide a comprehensive view of a product's journey from raw materials to the customer and upon purchase, users also receive a unique NFT digital twin to further guarantee authenticity and offer unparalleled transparency.
 
 ## Images
-<img src=https://github.com/nkoorty/FiTag/assets/80065244/fc89838c-f3e1-4605-8860-8b19b313c4bd width=16% height=16% >
-<img src=https://github.com/nkoorty/FiTag/assets/80065244/b55fb765-0738-4327-8591-98a89ec9afae width=16% height=16% >
-<img src=https://github.com/nkoorty/FiTag/assets/80065244/03f9d28f-e029-4c6d-b0be-472dbbad06ce width=16% height=16% >
-<img src=https://github.com/nkoorty/FiTag/assets/80065244/310785a7-49dc-4251-a4bc-6392db1fb747 width=16% height=16% >
-<img src=https://github.com/nkoorty/FiTag/assets/80065244/9e86d745-7a94-47de-b6b9-5da8558241d7 width=16% height=16% >
-<img src=https://github.com/nkoorty/FiTag/assets/80065244/5660ba72-bc82-4d7e-8c9f-26a8ffe6f54f width=16% height=16% >
+-
+<img src=https://github.com/jjjutla/FibreTag/assets/80065244/bd4f3499-17cc-4a93-8c87-107819c97072) width=16% height=16% >
+<img src=https://github.com/jjjutla/FibreTag/assets/80065244/4e063290-7b52-4e98-b117-351ef19de3b2) width=16% height=16% >
+<img src=https://github.com/jjjutla/FibreTag/assets/80065244/8a9d89e4-ac8c-4a7f-9226-5fed1fa6ceb7) width=16% height=16% >
+<img src=https://github.com/jjjutla/FibreTag/assets/80065244/cd059a70-c0e5-467d-9327-3f5e0e3ea4f2) width=16% height=16% >
+<img src=https://github.com/jjjutla/FibreTag/assets/80065244/2617fed6-53d6-44f7-be23-36ebd70522f8) width=16% height=16% >
+<img src=https://github.com/jjjutla/FibreTag/assets/80065244/1cd4746b-02cf-4dee-848b-fb084cced1bb) width=16% height=16% >
 
-Find a video demo [here](https://youtube.com/shorts/-bcWPqIdZ9k)
+Find a video demo of milestone 2 [here]([https://youtube.com/shorts/-bcWPqIdZ9k](https://youtu.be/KkgJxR6IqD8))
 
 ## Problems Solved
 - [85% of fashion's carbon emissions](https://web-assets.bcg.com/1e/23/d9e9792a4988b61e708794baa174/bcg-sustainability-metaverse-in-fashion-opportunity-or-threat-oct-2022.pdf) come from distribution and suppliers; our blockchain record identifies major emitters. 
