@@ -17,4 +17,4 @@ Please provide a list of all deliverables of the milestone extracted from the in
 | 4 | Frontend | [Code directory of iOS Swift project](https://github.com/jjjutla/FibreTag/tree/main/FibreTag/FibreTag) and [YouTube video](https://youtu.be/KkgJxR6IqD8) with short demo| Develop initial prototype for the iOS app. Creating specialized code integrations for Google OAuth, efficient NFC read/write, and backend networking integration using native Swift library Combine |
 | 5 | Backend |  | Create REST API infrastructure with custom endpoints for users on mobile devices and brands utilizing a web frontend |
 | 6 | Frontend |  | Develop web frontend for brands to use in order to visaulise transaction data |
-| 7 | Report |  | Revise prototype based on feedback from vechain team |
+| 7 | Report | [Report](https://docs.google.com/document/d/1V4ucJSSbfCUH3a5LGkjh1XApgK8KNwRhua8oZjBMEnA/edit?usp=sharing) | Revise prototype based on feedback from vechain team |
