@@ -11,8 +11,8 @@ Please provide a list of all deliverables of the milestone extracted from the in
 
 | Number | Deliverable | Link | Notes |
 | ------------- | ------------- | ------------- |------------- |
-| 1 | Smart contracts | (https://github.com/jjjutla/FibreTag/blob/main/backend/contracts/contracts/contracts/Tracking.sol) | Develop the tracking smart contract, include functions for comprehensive product lifecycle management, implement stringent access controls to ensure only authorized users can perform actions, and construct a secure transfer mechanism to automate NFT ownership transfers upon product sales |
-| 2 | Smart contracts |  | Develop digital twin NFT contract for the item and bridge with vechain.energy API |
+| 1 | Smart contracts | [Tracking Contract](https://github.com/jjjutla/FibreTag/blob/main/backend/contracts/contracts/contracts/Tracking.sol) | Develop the tracking smart contract, include functions for comprehensive product lifecycle management, implement stringent access controls to ensure only authorized users can perform actions, and construct a secure transfer mechanism to automate NFT ownership transfers upon product sales |
+| 2 | Smart contracts | [NFT Contract](https://github.com/jjjutla/FibreTag/blob/main/backend/contracts/contracts/contracts/NFT.sol)  | Develop digital twin NFT contract for the item and bridge with vechain.energy API |
 | 3 | Backend |  | Integrate the contract into a backend to handle the NFT minting/burning upon payment and use a payment processor like Stripe to manage finances and notify the backend of transactions |
 | 4 | Frontend | [Code directory of iOS Swift project](https://github.com/jjjutla/FibreTag/tree/main/FibreTag/FibreTag) and [YouTube video](https://youtu.be/KkgJxR6IqD8) with short demo| Develop initial prototype for the iOS app. Creating specialized code integrations for Google OAuth, efficient NFC read/write, and backend networking integration using native Swift library Combine |
 | 5 | Backend |  | Create REST API infrastructure with custom endpoints for users on mobile devices and brands utilizing a web frontend |
