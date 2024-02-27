@@ -10,7 +10,6 @@
 FibreTag is an iOS app that combines the power of vechain’s blockchain technology with the dual needs of the luxury fashion market: combating counterfeits and promoting sustainability. We utilise NFC technology to provide a comprehensive view of a product's journey from raw materials to the customer and upon purchase, users also receive a unique NFT digital twin to further guarantee authenticity and offer unparalleled transparency.
 
 ## Images
--
 <img src=https://github.com/jjjutla/FibreTag/assets/80065244/bd4f3499-17cc-4a93-8c87-107819c97072) width=16% height=16% >
 <img src=https://github.com/jjjutla/FibreTag/assets/80065244/4e063290-7b52-4e98-b117-351ef19de3b2) width=16% height=16% >
 <img src=https://github.com/jjjutla/FibreTag/assets/80065244/8a9d89e4-ac8c-4a7f-9226-5fed1fa6ceb7) width=16% height=16% >
@@ -18,7 +17,7 @@ FibreTag is an iOS app that combines the power of vechain’s blockchain technol
 <img src=https://github.com/jjjutla/FibreTag/assets/80065244/2617fed6-53d6-44f7-be23-36ebd70522f8) width=16% height=16% >
 <img src=https://github.com/jjjutla/FibreTag/assets/80065244/1cd4746b-02cf-4dee-848b-fb084cced1bb) width=16% height=16% >
 
-Find a video demo of milestone 2 [here]([https://youtube.com/shorts/-bcWPqIdZ9k](https://youtu.be/KkgJxR6IqD8))
+Find a video demo of milestone 2 [here](https://youtu.be/KkgJxR6IqD8)
 
 ## Problems Solved
 - [85% of fashion's carbon emissions](https://web-assets.bcg.com/1e/23/d9e9792a4988b61e708794baa174/bcg-sustainability-metaverse-in-fashion-opportunity-or-threat-oct-2022.pdf) come from distribution and suppliers; our blockchain record identifies major emitters. 
