@@ -1,0 +1,61 @@
+{
+    "testSummary": {
+      "duration": "1 hour per test scenario",
+      "apisTested": [
+        "POST /items/register",
+        "POST /items/updateStage",
+        "GET /items/:itemID/history"
+      ]
+    },
+    "results": {
+      "POST /items/register": {
+        "expectedLoad": {
+          "users": 1000,
+          "averageResponseTime": "150 ms",
+          "percentile90ResponseTime": "300 ms",
+          "errorRate": "1%",
+          "throughput": "400 requests/min"
+        },
+        "peakLoad": {
+          "users": 5000,
+          "averageResponseTime": "450 ms",
+          "percentile90ResponseTime": "900 ms",
+          "errorRate": "5%",
+          "throughput": "2000 requests/min"
+        }
+      },
+      "POST /items/updateStage": {
+        "expectedLoad": {
+          "users": 1000,
+          "averageResponseTime": "200 ms",
+          "percentile90ResponseTime": "400 ms",
+          "errorRate": "0.5%",
+          "throughput": "350 requests/min"
+        },
+        "peakLoad": {
+          "users": 5000,
+          "averageResponseTime": "500 ms",
+          "percentile90ResponseTime": "1000 ms",
+          "errorRate": "3%",
+          "throughput": "1700 requests/min"
+        }
+      },
+      "GET /items/:itemID/history": {
+        "expectedLoad": {
+          "users": 1000,
+          "averageResponseTime": "120 ms",
+          "percentile90ResponseTime": "250 ms",
+          "errorRate": "0.2%",
+          "throughput": "450 requests/min"
+        },
+        "peakLoad": {
+          "users": 5000,
+          "averageResponseTime": "350 ms",
+          "percentile90ResponseTime": "750 ms",
+          "errorRate": "2%",
+          "throughput": "2200 requests/min"
+        }
+      }
+    }
+  }
+  
