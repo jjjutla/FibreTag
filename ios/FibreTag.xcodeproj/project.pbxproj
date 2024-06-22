@@ -69,7 +69,18 @@
 		DA9757B72B8C0A7F00BE71B8 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9757B62B8C0A7F00BE71B8 /* LoginViewModel.swift */; };
 		DA9757BB2B8C121D00BE71B8 /* MarketplaceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9757BA2B8C121D00BE71B8 /* MarketplaceViewModel.swift */; };
 		DA9757BE2B8CC14000BE71B8 /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = DA9757BD2B8CC14000BE71B8 /* AlertToast */; };
+		DA9A15122C275155004997EA /* FibreTagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9A15112C275155004997EA /* FibreTagTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA9A15132C275155004997EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA321B582B8BEA88008C5106 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA321B5F2B8BEA88008C5106;
+			remoteInfo = FibreTag;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DA321B602B8BEA88008C5106 /* FibreTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FibreTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +112,9 @@
 		DA8BD4802B8D792E00D9DA9F /* FirebaseManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManagement.swift; sourceTree = "<group>"; };
 		DA9757B62B8C0A7F00BE71B8 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		DA9757BA2B8C121D00BE71B8 /* MarketplaceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketplaceViewModel.swift; sourceTree = "<group>"; };
+		DA9A150A2C275074004997EA /* FibreTag.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = FibreTag.xctestplan; sourceTree = "<group>"; };
+		DA9A150F2C275155004997EA /* FibreTagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FibreTagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9A15112C275155004997EA /* FibreTagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibreTagTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,13 +161,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DA9A150C2C275155004997EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		DA321B572B8BEA88008C5106 = {
 			isa = PBXGroup;
 			children = (
+				DA9A150A2C275074004997EA /* FibreTag.xctestplan */,
 				DA321B622B8BEA88008C5106 /* FibreTag */,
+				DA9A15102C275155004997EA /* FibreTagTests */,
 				DA321B612B8BEA88008C5106 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -162,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				DA321B602B8BEA88008C5106 /* FibreTag.app */,
+				DA9A150F2C275155004997EA /* FibreTagTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -305,6 +329,14 @@
 			path = Settings;
 			sourceTree = "<group>";
 		};
+		DA9A15102C275155004997EA /* FibreTagTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA9A15112C275155004997EA /* FibreTagTests.swift */,
+			);
+			path = FibreTagTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -363,6 +395,24 @@
 			productReference = DA321B602B8BEA88008C5106 /* FibreTag.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DA9A150E2C275155004997EA /* FibreTagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA9A15152C275155004997EA /* Build configuration list for PBXNativeTarget "FibreTagTests" */;
+			buildPhases = (
+				DA9A150B2C275155004997EA /* Sources */,
+				DA9A150C2C275155004997EA /* Frameworks */,
+				DA9A150D2C275155004997EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA9A15142C275155004997EA /* PBXTargetDependency */,
+			);
+			name = FibreTagTests;
+			productName = FibreTagTests;
+			productReference = DA9A150F2C275155004997EA /* FibreTagTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -370,11 +420,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1520;
+				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					DA321B5F2B8BEA88008C5106 = {
 						CreatedOnToolsVersion = 15.2;
+					};
+					DA9A150E2C275155004997EA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DA321B5F2B8BEA88008C5106;
 					};
 				};
 			};
@@ -398,6 +452,7 @@
 			projectRoot = "";
 			targets = (
 				DA321B5F2B8BEA88008C5106 /* FibreTag */,
+				DA9A150E2C275155004997EA /* FibreTagTests */,
 			);
 		};
 /* End PBXProject section */
@@ -410,6 +465,13 @@
 				DA321B6B2B8BEA89008C5106 /* Preview Assets.xcassets in Resources */,
 				DA321B682B8BEA89008C5106 /* Assets.xcassets in Resources */,
 				DA321B872B8BEB8F008C5106 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9A150D2C275155004997EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +508,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DA9A150B2C275155004997EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9A15122C275155004997EA /* FibreTagTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA9A15142C275155004997EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA321B5F2B8BEA88008C5106 /* FibreTag */;
+			targetProxy = DA9A15132C275155004997EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		DA321B6C2B8BEA89008C5106 /* Debug */ = {
@@ -634,6 +712,44 @@
 			};
 			name = Release;
 		};
+		DA9A15162C275155004997EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 288ZUH88HD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.artemiymalyshau.FibreTagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FibreTag.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FibreTag";
+			};
+			name = Debug;
+		};
+		DA9A15172C275155004997EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 288ZUH88HD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.artemiymalyshau.FibreTagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FibreTag.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FibreTag";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -651,6 +767,15 @@
 			buildConfigurations = (
 				DA321B6F2B8BEA89008C5106 /* Debug */,
 				DA321B702B8BEA89008C5106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA9A15152C275155004997EA /* Build configuration list for PBXNativeTarget "FibreTagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9A15162C275155004997EA /* Debug */,
+				DA9A15172C275155004997EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

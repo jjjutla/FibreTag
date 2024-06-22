@@ -1,0 +1,23 @@
+{
+  "configurations" : [
+    {
+      "id" : "227C2FC9-7143-4CA4-B8D6-1348D05B92C1",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:FibreTag.xcodeproj",
+      "identifier" : "DA321B5F2B8BEA88008C5106",
+      "name" : "FibreTag"
+    }
+  },
+  "testTargets" : [
+
+  ],
+  "version" : 1
+}
