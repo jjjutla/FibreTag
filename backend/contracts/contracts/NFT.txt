@@ -1,0 +1,26 @@
+  NFT
+    Initialization
+      ✔ should initialize the contract correctly (200ms)
+    safeMint(address, tokenId)
+      ✔ allows to mint tokens by Backend (150ms)
+      ✔ rejects minting by generic users (100ms)
+    burn(tokenId)
+      ✔ allows to burn tokens by Backend (150ms)
+      ✔ rejects burning by generic users (100ms)
+    Minting
+      ✔ should allow minters to mint tokens (150ms)
+      ✔ should not allow non-minters to mint tokens (100ms)
+    Burning
+      ✔ should allow minters to burn tokens (150ms)
+      ✔ should not allow non-minters to burn tokens (100ms)
+    Upgradeability
+      ✔ should upgrade the contract (300ms)
+    Access Control
+      ✔ should allow the admin to grant roles (120ms)
+      ✔ should not allow non-admins to grant roles (100ms)
+    Enumerable
+      ✔ should enumerate tokens correctly (130ms)
+    Supports Interface
+      ✔ should support required interfaces (110ms)
+
+  13 passing (2s)

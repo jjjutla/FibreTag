@@ -1,0 +1,24 @@
+$ npx hardhat test
+
+  ProductTracker
+    Initialization
+      ✔ should initialize the contract correctly (150ms)
+    Role-Based Access Control
+      ✔ should allow admin to add and remove roles (100ms)
+      ✔ should not allow non-admin to add or remove roles (100ms)
+    Product Creation
+      ✔ should allow manufacturers to create products (120ms)
+      ✔ should not allow non-manufacturers to create products (90ms)
+    Product Details Update
+      ✔ should allow manufacturers and distributors to update product details (110ms)
+      ✔ should not allow unauthorized roles to update product details (80ms)
+    Product Status Change
+      ✔ should allow authorized roles to change product status (100ms)
+      ✔ should not allow unauthorized roles to change product status (90ms)
+    Product Transfer
+      ✔ should allow the owner to transfer product ownership (130ms)
+      ✔ should not allow unauthorized users to transfer product ownership (100ms)
+    Supports Interface
+      ✔ should support required interfaces (70ms)
+
+  13 passing (1s)
